@@ -1,6 +1,6 @@
 {
-  "name": "js-sha3",
-  "version": "0.6.1",
+  "name": "@exodus/js-sha3",
+  "version": "0.6.1-exodus0",
   "description": "A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 encoding.",
   "main": "src/sha3.js",
   "typings": "index",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emn178/js-sha3.git"
+    "url": "https://github.com/ExodusMovement/js-sha3.git"
   },
   "keywords": [
     "sha3",
@@ -34,9 +34,9 @@
     "HMAC"
   ],
   "license": "MIT",
-  "author": "Chen, Yi-Cyuan <emn178@gmail.com>",
-  "homepage": "https://github.com/emn178/js-sha3",
+  "author": "kklash",
+  "homepage": "https://github.com/ExodusMovement/js-sha3",
   "bugs": {
-    "url": "https://github.com/emn178/js-sha3/issues"
+    "url": "https://github.com/ExodusMovement/js-sha3/issues"
   }
 }
