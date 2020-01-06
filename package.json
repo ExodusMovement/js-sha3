@@ -8,14 +8,12 @@
   "devDependencies": {
     "expect.js": "~0.3.1",
     "jscoverage": "~0.5.9",
-    "mocha": "~2.3.2",
-    "uglifyjs": "~2.4.10"
+    "mocha": "~2.3.2"
   },
   "scripts": {
     "test": "mocha tests/node-test.js -r jscoverage",
     "report": "mocha tests/node-test.js -r jscoverage --covout=html",
-    "coveralls": "mocha tests/node-test.js -R mocha-lcov-reporter -r jscoverage | coveralls",
-    "build": "uglifyjs src/sha3.js --compress --mangle --comments --output build/sha3.min.js"
+    "coveralls": "mocha tests/node-test.js -R mocha-lcov-reporter -r jscoverage | coveralls"
   },
   "repository": {
     "type": "git",
