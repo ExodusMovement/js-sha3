@@ -10,6 +10,9 @@
     "jscoverage": "~0.5.9",
     "mocha": "~2.3.2"
   },
+  "files": [
+    "src/sha3.js"
+  ],
   "scripts": {
     "test": "mocha tests/node-test.js -r jscoverage",
     "report": "mocha tests/node-test.js -r jscoverage --covout=html",
